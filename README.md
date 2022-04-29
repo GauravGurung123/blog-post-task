@@ -1,4 +1,4 @@
-## Laravel Job Portal Application
+## Laravel Blog Application
 
 -   laravel version 8
 
