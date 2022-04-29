@@ -1,0 +1,237 @@
+/*
+Template: Phifi - Digital Marketing Agency Responsive HTML5 Template
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+*/
+
+@media only screen and (min-width:1200px) {
+}
+@media(max-width:1920px) {
+  .iq-banner .waves-box { left: inherit; right: 0; }
+  .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 49%; }
+}
+@media(max-width:1600px) {
+  .iq-banner .waves-box { position: absolute; top: 28%; left: 50%; margin-left: 0px; }
+  .iq-banner .banner-objects .banner-objects-02 { position: absolute; left: 40%; }
+}
+@media(max-width:1399px) { }
+@media(max-width:1365px) {
+  .iq-web-services img { left: -45px; }
+}
+@media(max-width:1299px) {
+  .iq-web-services img { left: -10%; }
+  footer .footer-pattern { left: -9%; }
+  .iq-banner .banner-text { margin-top: 15%; }
+}
+@media(max-width:1199px) {
+  header .navbar .navbar-nav>li { margin: 0 15px; }
+  header .container-fluid { padding: 0 20px; }
+  header .navbar .navbar-nav>li { margin: 0 8px; }
+  header .sub-main { margin-left: 20px; }
+  .iq-banner .banner-text { margin-top: 10%; }
+  .iq-banner .banner-text h1 { font-size: 45px; }
+  .iq-web-services img { left: -17%; }
+  footer .footer-pattern { left: -18%; }
+}
+@media(max-width:1024px) {
+  .iq-web-services img { left: -20%; }
+  footer .footer-pattern { display: none; }
+  .iq-banner-02 { padding-bottom: 70px; }
+  .iq-banner .banner-text { margin-top: 9%; }
+}
+@media(max-width:992px) {
+  header .navbar-toggler { right: 0; position: absolute; -webkit-box-shadow: 0px 10px 30px 0px rgba(70, 200, 148, 0.2); -moz-box-shadow: 0px 10px 30px 0px rgba(70, 200, 148, 0.2); box-shadow: 0px 10px 30px 0px rgba(70, 200, 148, 0.2); }
+  header .navbar ul.navbar-nav li { margin-right: 0; display: inline-block; position: relative; width: 100%; }
+  header .navbar .navbar-nav { max-height: 330px; overflow-y: scroll; overflow-x: hidden; }
+  header .navbar .navbar-nav .nav-item a { color: #142c4b; line-height: normal; display: inline-block; width: 100%; font-size: 16px; padding: 15px !important; z-index: inherit; text-align: left; }
+  header .navbar-collapse { position: absolute; top: 60px; line-height: 0; left: 0; display: inline-block; width: 100%; -webkit-box-shadow: 0px 10px 30px 0px rgba(70, 200, 148, 0.2); -moz-box-shadow: 0px 10px 30px 0px rgba(70, 200, 148, 0.2); box-shadow: 0px 10px 30px 0px rgba(70, 200, 148, 0.2); }
+  header .navbar ul.navbar-nav { float: left; display: inline-block; width: 100%; max-width: 100%; background: #ffffff; }
+  header .dropdown>.dropdown-menu{    -webkit-animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-bottom 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;}
+    header .navbar-expand-lg .navbar-nav .dropdown-menu{padding: 0;}
+  .iq-blog .iq-blog-img img { width: 100%; }
+  section { padding: 75px 0; }
+  .overview-block-ptb { padding: 75px 0; }
+  .overview-block-pt { padding: 75px 0 0 0; }
+  .overview-block-pb { padding: 0 0 75px 0; }
+
+  /*Padding*/
+  .iq-pb-70 { padding-bottom: 45px; }
+  .iq-pt-70 { padding-top: 45px; }
+  .iq-ptb-60 { padding: 30px 0px; }
+  .iq-pb-40 { padding-bottom: 45px; }
+  .iq-pb-55 { padding-bottom: 30px; }
+
+  /*Overlay*/
+  .overlay-right-bottom { display: none; }
+  .overlay-right-top { display: none; }
+  .overlay-left-bottom { display: none; }
+  .overlay-right-bottom-2 { display: none; }
+  .overlay-right-top-2 { display: none; }
+  .overlay-left-bottom-2 { display: none; }
+  .fancy-back { display: none; }
+  .iq-mr-15 { margin-right: 0px; }
+  .iq-ml-15 { margin-left: 0px; }
+  .iq-portfolio { margin-bottom: 30px; }
+  .swiper-slide { width: 482px !important; }
+  .iq-web-services img { display: none; }
+  .iq-web-services { padding-bottom: 75px; }
+  .iq-gradient-bg { padding-bottom: 100px; }
+  footer .info-share li a:hover { border-color: #0b0b0b; background-color: #0b0b0b; color: #ffffff; }
+  .iq-counter-block .inner-container { padding-left: 0px; }
+  .iq-counter.iq-counter-style-1 { text-align: center; }
+  .play-video-two { top: 50%; }
+  .iq-subscribe-block .inner-container { padding: 60px 15px 60px 15px; }
+  .iq-portfolio-after:after { height: 245px; }
+  .fancy-pattern-d3 { display: none; }
+  .iq-abouimg { margin-top: 0px; }
+  .iq-client-box { margin-bottom: 30px; }
+  footer.footer3 form.mc4wp-form { padding-left: 0px; }
+  .iq-agency-block .inner-container { padding-bottom: 55px; padding-left: 130px; padding-top: 60px; }
+  .iq-agency-block .iq-title-box .iq-title { font-size: 40px; }
+  .iq-fancy-pb:after { display: none; }
+  .iq-investor:after { display: none; }
+  .iq-image-expert .iq-pattern { right: 34%; }
+  .iq-partner-box { margin-bottom: 30px; }
+  .iq-team2 .img-pattern-1 { right: 23%; }
+  .iq-team2 .img-pattern-2 { left: 23%; }
+  .iq-portfolio-section { padding-top: 0px; }
+  .owl-carousel .iq-testimonial { margin-top: 30px }
+  .res-mb { margin-bottom: 45px; }
+  header .navbar .navbar-nav { margin-top: 0px; }
+  header .navbar .navbar-nav>li { margin: 0px; }
+  .res-pt { padding-top: 0px; }
+  footer { padding-top: 0px; }
+  .iq-portfolio-titlebox { padding-top: 0px; }
+  .owl-carousel .iq-testimonial2 { margin-bottom: 0px; }
+  .iq-portfolio-titlebox .iq-title-box { margin-bottom: 45px; }
+  .iq-vedio-box { margin-top: -110px; }
+  .overview-block-pb.iq-vedio-section { padding-bottom: 0px; }
+  .iq-title-box { margin-bottom: 45px; }
+  .iq-portfolio-slider .swiper-slide { margin-right: 30px !important; }
+  section.position-relative.overview-block-pb.iq-mb-50 { margin-bottom: 0px; }
+  footer.footer2:after { height: 80px; }
+  .iq-agency-block:after { background: transparent; }
+  .iq-about-section { padding-top: 45px; }
+  .iq-testimonial3 { margin-bottom: 0px; }
+  iframe { margin-bottom: 30px; height: 400px; }
+  .iq-banner-03 .banner-text { margin-top: 9%; }
+  .iq-banner-02 .banner-objects .banner-objects-01 { display: none; }
+  .iq-banner-02 .banner-text { text-align: center; margin-top: 12%; }
+  .iq-banner-02 .banner-objects .banner-objects-02 { display: none; }
+  .iq-banner-02 .banner-text .btn-container { text-align: center !important; margin-bottom: 0px; }
+  .iq-banner-02 { padding-bottom: 0px; }
+  .iq-banner-02 .banner-text h1 { font-size: 50px; }
+  .iq-banner .banner-responsive { display: block; text-align: center; }
+  .iq-banner .banner-responsive img { height: 430px; }
+  .iq-banner .banner-objects .banner-objects-01 { display: none; }
+  .iq-banner .waves-box { text-align: center; position: absolute; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); right: auto; margin-left: 0px; top: 40%; }
+  .iq-banner .iq-banner-video { top: 9%; }
+  .iq-banner .iq-text { display: none; }
+  .iq-banner .banner-text { text-align: center; }
+  .iq-banner .banner-text .btn-container { text-align: center !important; }
+  .iq-banner.banner-text h1 { font-size: 50px; }
+  .iq-banner .banner-text { text-align: center; margin-top: 12%; }
+  .iq-banner .banner-objects .banner-objects-02 { display: none; }
+  .iq-banner .banner-text h1 { font-size: 40px; }
+}
+@media(max-width:850px) {
+  .iq-team2 .img-pattern-1 { right: 20%; }
+  .iq-team2 .img-pattern-2 { left: 20%; }
+  .iq-banner .banner-text {
+    margin-top: 30%;
+}
+}
+@media(max-width:767px) {
+  .instagram-box .col-lg-4.col-md-4.col-sm-4, .instagram-box .col-lg-4.col-md-6.col-sm-6{padding: 0 15px 15px 15px;}
+  h2 { font-size: 36px; }
+  footer .footer-topbar .subscribe-title { text-align: left; }
+  .btn-container { text-align: left; margin-bottom: 45px; }
+  .iq-counter { text-align: center; }
+  .swiper-slide { width: 380px !important; }
+  .iq-video-two { width: 100px; line-height: 100px; height: 100px; }
+  .iq-waves { left: -71px; top: -71px; }
+  .owl-carousel .iq-testimonial2 { padding: 30px 30px 30px 30px; }
+  .iq-title-box { margin-bottom: 30px; }
+  .iq-agency-block .btn-container { margin-bottom: 0px; }
+  .iq-image-expert .iq-pattern { right: 28%; }
+  .iq-team2 .img-pattern-1 { right: 34%; }
+  .iq-team2 .img-pattern-2 { left: 34%; }
+  .iq-title-box .iq-line.six { top: 27px; }
+  .iq-portfolio-slider .swiper-slide { margin-right: 30px !important; }
+  footer.footer2 .social-icone { text-align: left; }
+  footer.footer2 .copyright-footer { border-top: none; }
+  footer.footer2:after { height: 100px; }
+  .iq-vedio-box { margin-top: -90px; }
+  .iq-banner-03 .banner-text { margin-top: 12%; }
+  .iq-agency-block .inner-container { padding-bottom: 30px; padding-left: 80px; padding-top: 30px; }
+  .iq-agency-block .iq-title-box .iq-title { font-size: 35px; }
+  .iq-agency-block { margin-top: -100px; }
+  .iq-agency-block .iq-title-box p span { display: initial; }
+  .iq-agency-block .inner-container .iq-pattern-style:before { border-radius: 100px 0 0 10px; }
+  .iq-banner-02 .banner-text h1 { font-size: 40px; }
+  .iq-banner .banner-text h1 { font-size: 35px; }
+  .iq-banner .banner-text .btn-container { margin-bottom: 0px; }
+  .iq-banner .banner-responsive img { height: 350px; }
+}
+@media(max-width:674px) {
+  .swiper-slide { width: 436px !important; }
+  .iq-team2 .img-pattern-1 { right: 32%; }
+  .iq-team2 .img-pattern-2 { left: 32%; }
+}
+@media(max-width:575px) {
+  .swiper-slide { width: 374px !important; }
+  .iq-team2 .img-pattern-1 { right: 28%; }
+  .iq-team2 .img-pattern-2 { left: 28%; }
+  .iq-portfolio-after:after { height: 243px; }
+  .iq-banner-03 .banner-text { margin-top: 18%; }
+  .iq-agency-block .inner-container { padding-left: 80px; }
+  .iq-agency-block .iq-title-box .iq-title { font-size: 25px; }
+  .iq-banner-02 .banner-text { margin-top: 30%; }
+  .iq-banner-02 .banner-text p span { display: initial; }
+  .iq-banner .banner-text { margin-top: 32%; }
+  .iq-banner .banner-text p span { display: initial; }
+}
+@media(max-width:479px) {
+  .swiper-slide { width: 236px !important; }
+  .owl-carousel .iq-testimonial2 .testimonial-info .iq-icon { right: 0%; }
+  .iq-image-expert .iq-pattern { right: 20%; }
+  .iq-team2 .img-pattern-1 { right: 23%; }
+  .iq-team2 .img-pattern-2 { left: 23%; }
+  .owl-carousel .iq-testimonial { padding: 30px 30px 30px 30px; }
+  .owl-carousel .iq-testimonial .testimonial-info { display: block; }
+  .owl-carousel .iq-testimonial .testimonial-name { margin-top: 15px; }
+  footer.footer2:after { height: 120px; }
+  .iq-portfolio-after:after { height: 243px; }
+  .iq-agency-block { margin-top: -70px; }
+  .iq-agency-block .iq-title-box .iq-title { font-size: 24px; }
+  .iq-agency-block .iq-title-box p { font-size: 14px; }
+  .iq-agency-block .inner-container .iq-pattern-style:before { border-radius: 90px 0 0 10px; }
+  .iq-agency-block .inner-container { padding-left: 60px; }
+  .iq-banner-02 .banner-text h1 { font-size: 35px; }
+  .iq-banner-02 .banner-text { margin-top: 21%; }
+  .iq-banner .banner-text h1 { font-size: 35px; }
+  .iq-banner .banner-text { margin-top: 21%; }
+  .iq-banner .banner-responsive img { height: 300px; }
+  footer input[type=email] { padding: 0 140px 0 15px; font-size: 14px; }
+}
+@media(max-width:359px) {
+  .swiper-slide { width: 175px !important; }
+  .iq-portfolio .iq-portfolio-icon { width: 80px; height: 90px; line-height: 90px; }
+  .owl-carousel .iq-testimonial2 .testimonial-info { display: block; }
+  .owl-carousel .iq-testimonial2 .testimonial-info .iq-icon { right: 0; top: auto; bottom: 0%; }
+  .owl-carousel .iq-testimonial2 .testimonial-name { margin-top: 15px; }
+  .iq-team2 .img-pattern-1 { right: 13%; }
+  .iq-team2 .img-pattern-2 { left: 13%; }
+  iframe { margin-bottom: 30px; height: 350px; }
+  .iq-banner-03 .banner-text { margin-top: 20%; }
+  .iq-agency-block .inner-container .iq-pattern-style:before { border-radius: 70px 0 0 10px; }
+  .iq-agency-block .inner-container { padding-left: 50px; }
+  .iq-banner-02 .banner-text { margin-top: 40%; }
+  .iq-banner-02 .banner-text h1 { font-size: 30px; }
+  .iq-banner-02 .banner-text p { font-size: 14px; }
+  .iq-banner .banner-text h1 { font-size: 30px; }
+  .iq-banner .banner-text p { font-size: 14px; }
+  .iq-banner .banner-text { margin-top: 25%; }
+}
