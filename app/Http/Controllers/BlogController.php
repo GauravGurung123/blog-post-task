@@ -59,7 +59,8 @@ class BlogController extends Controller
      */
     public function store(StoreBlogRequest $request)
     {
-       try {
+
+       try {           
         Blog::create([
             'user_id' => Auth::id(),
             'name' => $request->name,
@@ -86,6 +87,16 @@ class BlogController extends Controller
        } catch (\Throwable $th) {
             return redirect()->route('admin.blogs.index')->with('error', 'Failed! something went wrong');  
        } 
+
+        // $imgName = time().$request->file('upload')->getClientOriginalName();
+        
+        // $request->file('upload')->move(public_path('images/blogs'), $imgName);
+
+        // $path = 'images/blogs/'.$imgName;
+
+        // DB::table('images')
+        // ->where('imageable_id', $blog_id)
+        // ->update(['path' => $path]);
 
        return redirect()->route('admin.blogs.index')->with('success', 'Blog added successfully');
 

@@ -6,6 +6,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\Frontend\HomeController;
 use App\Http\Controllers\Frontend\ProfileController;
+use App\Http\Controllers\ImageController;
 use App\Http\Controllers\TagController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -42,6 +43,7 @@ Route::group([
     'middleware' => 'admin',
     ], function () {
         Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+        Route::post('/images', [ImageController::class, 'store'])->name('images.store');
 
         Route::view('/view-all/user', 'dashboard.users.index')->name('view-all.user');
         Route::get('/profile/edit/{profile}', [AdminProfileController::class, 'edit'])->name('profile.edit');

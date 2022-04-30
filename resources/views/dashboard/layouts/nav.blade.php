@@ -27,6 +27,9 @@
                   </span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <li class="nav-item">
+                  <a class="py-0 nav-link d-flex align-items-center" href="{{route('home')}}"><b>Go to Home</b></a>
+                </li>
                 <ul class="mb-2 navbar-nav ms-auto align-items-center navbar-list mb-lg-0">
 
                   <li class="nav-item dropdown">
@@ -38,8 +41,8 @@
                       </div>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="../dashboard/app/user-profile.html">Profile</a></li>
-                      <li><a class="dropdown-item" href="../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li>
+                      <li><a class="dropdown-item" href="{{route('admin.profile.edit', Auth::id())}}">Profile</a></li>
+                      {{-- <li><a class="dropdown-item" href="../dashboard/app/user-privacy-setting.html">Privacy Setting</a></li> --}}
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="{{ route('logout') }}"
                       onclick="event.preventDefault();

@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="row">
-            {{-- {{$blogs->links()}} --}}
+            {{$blogs->links()}}
             <style>
                 .w-5{display: none;}
             </style>

@@ -85,10 +85,11 @@ $(".multiple-tags").select2({
 });
 
 // CKeditor Section
-ClassicEditor
-.create( document.querySelector( '#blog-description' ) )
-.catch( error => {
-    console.error( error );
-});
+// ClassicEditor
+// .create( document.querySelector( '#blog-description' ) )
+// .catch( error => {
+//     console.error( error );
+// });
 </script>
+@include('dashboard.ckeditor')
 @endsection
