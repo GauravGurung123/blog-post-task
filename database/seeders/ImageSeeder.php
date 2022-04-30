@@ -14,8 +14,8 @@ class ImageSeeder extends Seeder
      */
     public function run()
     {
-        Image::factory(1)->create();
+        Image::factory(10)->create();
 
-        $this->command->info('Inserted 1 Admin imageable records.');
+        $this->command->info('Inserted 10 Blog imageable records.');
     }
 }

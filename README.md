@@ -2,7 +2,7 @@
 
 -   laravel version 8
 
-Login credentials for `admin` role
+Login credentials for `admin` type
 -   Email: admin@admin.com
 -   Password: password
 

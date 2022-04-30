@@ -14,9 +14,9 @@ class ImageFactory extends Factory
     public function definition()
     {
         return [
-            'path' => '/images/avatars/01.png',
-            'imageable_id' => 1,
-            'imageable_type' => 'App\Models\User',
+            'path' => '/vendor/images/blog/blog-1.jpg',
+            'imageable_id' => rand(1,10),
+            'imageable_type' => 'App\Models\Blog',
         ];
     }
 }

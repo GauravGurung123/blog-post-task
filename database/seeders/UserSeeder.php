@@ -27,6 +27,14 @@ class UserSeeder extends Seeder
             ],
         ]);
 
+        DB::table('images')->insert([
+            [
+            'path' => '/images/avatars/01.png',
+            'imageable_id' => 1,
+            'imageable_type' => 'App\Models\User',
+            ],
+        ]);
+
         User::factory(10)->create();
 
         $this->command->info('Inserted 1 admin and 10 other random user records.');

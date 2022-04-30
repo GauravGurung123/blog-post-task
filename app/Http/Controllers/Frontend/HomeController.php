@@ -14,10 +14,13 @@ class HomeController extends Controller
     {
         $blog_search = $request['blog_search'] ?? null;
         if($blog_search != null){
-            $blogs = Blog::where('name', 'like', "%$blog_search%")->paginate(6);
-            // dd($blogs);
+            $blogs = Blog::where('name', 'like', "%$blog_search%")
+            ->with('images')
+            ->orderBy('id', 'desc')
+            ->paginate(6);
+            
         } else {        
-            $blogs = Blog::paginate(6);
+            $blogs = Blog::with('images')->orderBy('id', 'desc')->paginate(6);
         }
         return view('home', compact(['blog_search', 'blogs']));
     }

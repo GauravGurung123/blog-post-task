@@ -35,13 +35,17 @@
 <section class="iq-blog-section iq-pb-55">
     <div class="container">
         <div class="row">
+            {{-- @dd($blogs->images()) --}}
             <div class="iq-blog text-left ">
                 <div class="row">
-                    @forelse ($blogs as $blog)                        
+                    @forelse ($blogs as $blog)
                     <div class="col-lg-4 col-md-6">
                         <div class="iq-blog-box">
                             <div class="iq-blog-image clearfix">
-                                <img src="{{asset('vendor/images/blog/blog-1.jpg')}}" alt="#">
+                                @foreach ($blog->images as $image)
+                                    
+                                <img src="{{asset($image->path)}}" alt="No Image">
+                                @endforeach
                             </div>
                             <div class="iq-blog-detail">
                                 <div class="blog-title">
@@ -72,7 +76,7 @@
             </div>
         </div>
         <div class="row">
-            {{$blogs->links()}}
+            {{-- {{$blogs->links()}} --}}
             <style>
                 .w-5{display: none;}
             </style>
